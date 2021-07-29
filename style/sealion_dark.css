@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+
+body{
+    margin:0;
+    background-color:rgb(30, 34, 34);
+    /* font-family:Arial, Helvetica, sans-serif; */
+    color:darkgoldenrod;
+    font-family: 'KoHo', sans-serif;
+}
+
+header section{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+header,footer{
+    background:#212221;
+    padding:1em;
+    color:#eb932b;
+    text-align: center;
+}
+
+#mainNav{
+    position:sticky;
+}
+
+#mainNav ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-flow:row wrap;
+}
+#mainNav li{
+    flex-grow:3;
+    width: 3px;
+}
+
+#mainNav a{
+    display: block;
+    padding: 15px;
+}
+
+#mainNav a,footer a{
+    text-decoration: none;
+    color:#eb932b;
+    line-height: 1.7;
+    min-height:50px;
+
+}
+#sitemap ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+/*
+.box{
+    min-width:240px;
+    max-width:1200px;
+    widows:100%;
+    margin:0 auto;
+}
+*/
+
+main{
+    padding:1em;
+    margin:0;
+}
+
+#banner{
+    width:100%;
+    height:auto;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+footer{
+    display:flex ;
+    flex-flow:row wrap;
+    padding: 0;
+}
+footer section{
+    line-height:1.5;
+    padding: 30px;
+    margin:0 auto;
+}
+header section{
+    display:flex;
+    flex-flow:row wrap;
+}
+#mainNav a:hover{
+    background-color: #020202;
+    color:#3d453e;
+}
+footer a:hover{
+    text-decoration:underline;
+}
+img{
+    
+    background-size: contain;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:auto;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+}
+header img, footer img {
+    box-shadow: none;
+}
+p {
+    text-align: justify;
+  text-justify: inter-word;
+  padding: 5px;
+}
+
+#v{
+    display:grid;
+    float:right;
+}
+.p{
+    text-decoration: none ;
+    color:white;   
+    border: .1em solid none; 
+    margin:1em;
+    height:auto;
+    max-width: 100%;
+    padding:2em;
+}
+#sealioneee img{
+    width:100%;
+}
+#sealioneee section {
+    display:flex;
+    border:3em;
+}
+#v a:hover{
+    background-color: white;
+    color:black;
+}
+
+
+body{
+    color:darkgoldenrod;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {color:rgb(187, 142, 84);}
+  25%  {color: rgb(146, 98, 36);}
+  50%  {color:rgb(212, 137, 38);}
+  100% {color: rgb(100, 58, 2);}
+}
+
